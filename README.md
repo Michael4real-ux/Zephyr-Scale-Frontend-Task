@@ -12,6 +12,7 @@ The aim of this challenge is to build a 'test manager' application to handle som
 
 ## HOW TO RUN TEST || COMMAND LINE
  Note: Kindly use yarn to install to avoid dependency issues.Because the dependency version given was strictly used as given in this task.
+ if you don't have yarn install on your pc use: npm install --global yarn
 
  (1)Install dependencies to be able to run test;
 
