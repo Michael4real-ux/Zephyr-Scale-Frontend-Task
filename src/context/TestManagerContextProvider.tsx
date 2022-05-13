@@ -5,13 +5,14 @@ import React, {
   useContext,
   useState,
 } from "react";
+import { TestItem } from "../types";
 
 type Props = {
   initialTests: TestItem[];
 };
 
 type TestManagerState = [TestItem[], Dispatch<SetStateAction<TestItem[]>>];
-const TestManagerContext = createContext<TestManagerState>(null);
+export const TestManagerContext = createContext<TestManagerState>(null);
 
 export const TestManagerContextProvider: React.FC<Props> = ({
   initialTests,
