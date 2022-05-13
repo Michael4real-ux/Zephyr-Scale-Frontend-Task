@@ -5,7 +5,7 @@ WORKDIR /Zephyr-challenge
 # Cache and Install dependencies
 COPY package.json .
 COPY package-lock.json .
-RUN npm install
+RUN yarn install
 # Copy app files
 COPY . .
 # Expose port

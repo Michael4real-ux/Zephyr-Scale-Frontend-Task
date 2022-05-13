@@ -3,7 +3,7 @@
 The aim of this challenge is to build a 'test manager' application to handle some basic CRUD operations using React.Context and routing.
 
  ## Technologies
- 
+
  - Typescript
  - React/React context
  - Docker
@@ -11,6 +11,7 @@ The aim of this challenge is to build a 'test manager' application to handle som
  
 
 ## HOW TO RUN TEST || COMMAND LINE
+ Note: Kindly use yarn to install to avoid dependency issues.Because the dependency version given was stictly used as given in this task.
 
  (1)Install dependencies to be able to run test;
 
