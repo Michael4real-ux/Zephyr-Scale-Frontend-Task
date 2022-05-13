@@ -4,7 +4,9 @@
   "private": true,
   "dependencies": {
     "@atlaskit/button": "16.1.6",
+    "@atlaskit/dynamic-table": "14.5.0",
     "@atlaskit/select": "15.2.8",
+    "@atlaskit/textfield": "5.1.6",
     "@emotion/react": "11.8.1",
     "@emotion/styled": "11.8.1",
     "@testing-library/jest-dom": "5.16.2",
@@ -19,9 +21,8 @@
     "react-router": "5.2.0",
     "react-router-dom": "5.2.0",
     "react-scripts": "5.0.0",
-    "typescript": "4.5.5",
-    "@atlaskit/dynamic-table": "14.5.0",
-    "@atlaskit/textfield": "5.1.6"
+    "react-select-event": "^5.5.0",
+    "typescript": "4.5.5"
   },
   "scripts": {
     "start": "react-scripts start",
