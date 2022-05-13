@@ -15,7 +15,7 @@ The aim of this challenge is to build a 'test manager' application to handle som
 
  (1)Install dependencies to be able to run test;
 
- Command: yarn install
+ Command: yarn 
  (2) Then run test
   Command : yarn  test
 
@@ -25,7 +25,7 @@ You can run the app in two ways.
 
 (1) Regular way of starting a react app
   - Intall dependency
-     Command :   yarn install
+     Command :   yarn 
 
    - Start the app
      Command :  yarn start
