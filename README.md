@@ -65,3 +65,45 @@ You may also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+
+
+ ## Technologies
+ 
+ - Typescript
+ - React/React context
+ - Docker
+ - Atlaskit(atlassian design)
+ 
+
+## HOW TO RUN TEST || COMMAND LINE
+
+ (1)Install dependencies to be able to run test;
+
+ Command: npm install
+ (2) Then run test
+  Command : npm  test
+
+
+## HOW TO RUN THE APP || COMMAND LINE
+You can run the app in two ways.
+
+(1) Regular way of starting a react app
+  - Intall dependency
+     Command :   npm install
+
+   - Start the app
+     Command :  npm start
+
+(2) Alternative to the above instruction. You can start the app using docker,the app is containerized using
+    docker, this is to avoid discrepancies of the app functioning differently on different devices.
+   To run the app
+
+   - Install docker on your device,and make sure it is running.
+    kindly download docker if you don't have docker installed.
+   https://docs.docker.com/get-docker/
+
+   - Run Docker build
+     Command : docker build --tag react .
+   -  Run the app
+     Command : docker run --publish 3000:3000 react
