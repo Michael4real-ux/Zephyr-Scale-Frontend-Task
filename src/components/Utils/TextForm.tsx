@@ -5,12 +5,11 @@ import { useParams } from "react-router-dom";
 import { useTestManagerItems } from "../../context/TestManagerContextProvider.tsx";
 // @ts-ignore
 import { Form } from "./Form.tsx";
+import {RouteParams} from '../../types'
 
-type JobPageRouteParams = {
-  testItemId: string
-};
+
 export const EditText = () => {
-  let { testItemId } = useParams<JobPageRouteParams>();
+  let { testItemId } = useParams<RouteParams>();
   const [tests, setTests] = useTestManagerItems();
   return (
     <>

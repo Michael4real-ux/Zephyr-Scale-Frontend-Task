@@ -12,3 +12,7 @@ export interface Status {
   executionStatus: string;
 }
 
+export type RouteParams = {
+  testItemId: string
+};
+
